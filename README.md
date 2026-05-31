@@ -1,2 +1,25 @@
-# task-1-iris-data-analysis
-Exploring and visualizing the Iris dataset using Python, Pandas, Matplotlib, and Seaborn. Includes data inspection, scatter plots, histograms, and box plots for exploratory data analysis.
+# Data Science Assignment
+
+## Task 1: Exploring and Visualizing the Iris Dataset
+
+### Objective
+Understand how to read, summarize, and visualize a dataset using Python.
+
+### Dataset
+Iris Dataset
+
+### Tools and Libraries
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+### Tasks Performed
+
+#### 1. Data Loading
+Loaded the Iris dataset using Seaborn and Pandas.
+
+```python
+import seaborn as sns
+
+df = sns.load_dataset('iris')
